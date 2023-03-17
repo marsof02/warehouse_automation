@@ -1,0 +1,30 @@
+[
+    {
+        "Date": "Mar 10, 2022",
+        "WarehouseID": "a908cef7-4c67-40f3-88f7-08a03ba4104e",
+        "ShippingPO": "f0e7c6d2-6c97-4eb8-9b1d-af9f64db0e8e",
+        "ShipmentID": "2",
+        "BoxesRcvd": "8"
+    },
+    {
+        "Date": "Mar 11, 2022",
+        "WarehouseID": "a908cef7-4c67-40f3-88f7-08a03ba4104e",
+        "ShippingPO": "c15a06fb-441a-437d-9f20-f3836c07f28f",
+        "ShipmentID": "3",
+        "BoxesRcvd": "15"
+    },
+    {
+        "Date": "Mar 12, 2022",
+        "WarehouseID": "a908cef7-4c67-40f3-88f7-08a03ba4104e",
+        "ShippingPO": "739c80df-dede-4c50-a102-bfb67e77d6c5",
+        "ShipmentID": "4",
+        "BoxesRcvd": "10"
+    },
+    {
+        "Date": "Mar 13, 2022",
+        "WarehouseID": "a908cef7-4c67-40f3-88f7-08a03ba4104e",
+        "ShippingPO": "4f3d3d1a-46c3-4a3a-b267-3d1fa8c17bce",
+        "ShipmentID": "5",
+        "BoxesRcvd": "6"
+    }
+]

@@ -1,0 +1,29 @@
+{
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "get",
+        "post"
+      ]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    },
+    {
+      "name": "OutDocument",
+      "type": "cosmosDB",
+      "databaseName": "ReceivedItems",
+      "collectionName": "ItemsInventory",
+      "createIfNotExists": true,
+      "connectionStringSetting": "AccountEndpoint=https://warehouseautomdb.documents.azure.com:443/;AccountKey=C5HnyTBzZcrLMWBD09Geu8iSsqzo02dRmr7yCthQSby01MuKDBWb2xXesGBUDk2iHX2gxFeD0I1QACDbgNe2ZQ==;",
+      "partitionKey": "/ShipmentID",
+      "direction": "out"
+  }
+  ]
+}
